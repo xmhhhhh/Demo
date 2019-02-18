@@ -217,6 +217,8 @@ LRESULT CALLBACK WindowFunc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 int WINAPI _tWinMain(HINSTANCE hThisInst, HINSTANCE hPrevInst, LPSTR str, int nWinMode)
 {
+
+
 	WNDCLASSEX wc;
 	memset(&wc, 0, sizeof(wc));
 	wc.cbSize = sizeof(WNDCLASSEX);
